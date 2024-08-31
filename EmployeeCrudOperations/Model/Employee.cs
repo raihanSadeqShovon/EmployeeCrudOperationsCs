@@ -14,5 +14,7 @@ namespace EmployeeCrudOperations.Model
         public string Position { get; set; }
 
         public decimal Salary { get; set; }
+
+        public string ImageUrl { get; set; } // Add image path property
     }
 }
